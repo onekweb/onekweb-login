@@ -7,14 +7,14 @@
 <body>
    <div id="content"> 
         <form id ="login" action="#"  method="post">
-            <h1>Log in</h1>
+            <h1>Registration</h1>
             <fieldset id="inputs">
                 <p><input id="userame"type="name" value="" placeholder="Username"></p>
-                <p><input id="password"type="password" value="" placeholder="Password"></p>        
+                <p><input id="password"type="password" value="" placeholder="Password"></p>
+                <p><input id="password"type="password" value="" placeholder="Repeat password"></p>   
             </fieldset>        
             <fieldset id="actions">
-                <input id="submit"type="submit" value="Log in">
-            <a href="registration.php">Register</a>
+                <input id="submit"type="submit" value="Registration">
             </fieldset>
         </form>
    </div>                

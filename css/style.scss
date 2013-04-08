@@ -1,0 +1,85 @@
+$background-color1: #67B0E8;
+$background-color2: #999;
+$color: #333;
+
+body
+{
+width: 100%;
+height: 100%;
+font-family: arial;
+font: 12px;
+padding: 0;
+padding: 0;
+background: #fff;
+}
+
+#content
+{
+width:100%;
+height: 100%;
+margin: 0 auto;
+padding: 0;
+display: block;
+margin-top: 50px;
+}
+
+#login
+{
+width: 560px;
+height: auto;
+margin: 0 auto;
+display: block;
+padding: 0;
+background: $background-color1;
+    h1
+    {
+    color:$color;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-size: 23px;
+    background: $background-color2;  
+    }
+    
+    #inputs
+    {
+    border: none;    
+    }
+    #actions
+    {
+    border: none;   
+    }
+    #userame, #password
+    {
+    width: 150px;
+    height: 25px;
+    padding-left:10px;
+    border: none;
+    }
+}
+
+#actions
+{
+    #submit
+    {
+     background: $background-color2;
+     color: #fff;
+     width: 100px;
+     height: 30px;
+     border: none;
+     padding: 0;
+     margin-bottom: 30px;
+     cursor: true;
+    }
+    a
+    {
+    text-decoration: underline;
+    color: $color;
+    margin-left: 5px;
+    }
+    a:hover
+    {
+    color: #fff;    
+    }
+}
