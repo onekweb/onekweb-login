@@ -5,18 +5,22 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-   <div id="content"> 
-        <form id ="login" action="#"  method="post">
+   <div id="content">
+
+
+        <form id ="login" action="index.php"  method="post">
             <h1>Log in</h1>
             <fieldset id="inputs">
-                <p><input id="userame"type="name" value="" placeholder="Username"></p>
-                <p><input id="password"type="password" value="" placeholder="Password"></p>        
+                <p><input id="userame"type="name" name="user" value="" placeholder="Username"></p>
+                <p><input id="password"type="password" name="passwd" value="" placeholder="Password"></p>        
             </fieldset>        
             <fieldset id="actions">
-                <input id="submit"type="submit" value="Log in">
+                <input id="submit"type="submit" name="submit" value="Log in">
             <a href="registration.php">Register</a>
             </fieldset>
         </form>
    </div>                
 </body>
 </html>
+
+
